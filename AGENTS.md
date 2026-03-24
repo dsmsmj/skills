@@ -113,6 +113,12 @@ Usage notes:
 </skill>
 
 <skill>
+<name>vector-drag-resize</name>
+<description>Refactor drag/resize UI interactions using 2D vector math (Vec2, Rect, Hadamard product, direction sign tables). Use when the user asks to implement or refactor draggable/resizable elements, bounding-box resize handles, or wants to eliminate if-chain direction logic in drag interactions.</description>
+<location>project</location>
+</skill>
+
+<skill>
 <name>web-artifacts-builder</name>
 <description>Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.</description>
 <location>project</location>
